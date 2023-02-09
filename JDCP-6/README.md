@@ -39,7 +39,7 @@
 #### Командная работа
 1. [Удаленные ветки](15.1.md)
 2. [Issues](15.2.md)
-3. Pull Request
+3. [Pull Request](15.3.md)
 4. Github pages
 
 
