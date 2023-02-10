@@ -1,0 +1,111 @@
+div > h2 {
+  color: blue;
+}
+strong {
+  color: brown;
+}
+    blockquote span {
+  color: darkblue;
+  font-weight: 600;
+    }
+ol strong {
+  font-style: italic;
+}
+@media (min-width: 1920px) {
+    body {
+        width: 80em;
+        margin: 0 auto;
+        font-family: Tahoma;
+    }
+    blockquote span {
+  color: magenta;
+  font-weight: 600;
+    }
+}
+@media (min-width: 1200px) {
+  body {
+        width: 80em;
+        margin: 0 auto;
+        font-family: Verdana;
+    }
+    blockquote span {
+  color: hotpink;
+  font-weight: 600;
+    }
+}
+@media (min-width: 980px) and (max-width: 1199px) {
+  body {
+        width: 80em;
+        margin: 0 auto;
+        font-family: Arial;
+    }
+    blockquote span {
+  color: greenyellow;
+  font-weight: 600;
+    }
+}
+@media (min-width: 768px) and (max-width: 979px) {
+  body {
+        width: 80em;
+        margin: 0 auto;
+        font-family: sans-serif;
+    }
+    blockquote span {
+  color: yellow;
+  font-weight: 600;
+    }
+}
+@media (max-width: 767px) {
+  body {
+        width: 80em;
+        margin: 0 auto;
+        font-family: Calibri;
+    }
+    blockquote span {
+  color: darkslategray;
+  font-weight: 600;
+    }
+}
+@media (max-width: 480px) {
+  body {
+        width: 80em;
+        margin: 0 auto;
+        font-family: Courier New;
+    }
+    blockquote span {
+  color: darkorange;
+  font-weight: 600;
+    }
+}
+@media (max-width: 360px) {
+  body {
+        width: 80em;
+        margin: 0 auto;
+        font-family: Arial Narrow;
+    }
+    blockquote span {
+  color: darkmagenta;
+  font-weight: 600;
+    }
+}
+@media (max-width: 320px) {
+  body {
+        width: 80em;
+        margin: 0 auto;
+        font-family: Lucida Console;
+    }
+    blockquote span {
+  color: darkgreen;
+  font-weight: 600;
+    }
+strong {
+  color: orangered;
+}
+}
+
+
+/*@font-face {
+ font-family: "Open Sans";
+ src: url("/fonts/OpenSans-Regular-webfont.woff2") format("woff2"),
+        url("/fonts/OpenSans-Regular-webfont.woff") format("woff");
+}*/
