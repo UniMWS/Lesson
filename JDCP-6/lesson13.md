@@ -39,5 +39,13 @@ git remote -v
 git push -u origin main
 ```
 
+5. git pull origin main --no-rebase
++ это про конфликты и Merge (см. урок 14)
++ https://habr.com/ru/post/161009/
+
+6. git push --set-upstream origin main
++ https://ru.hexlet.io/topics/52170
++ Выполнив эту команду один раз с флагом --set-upstream или сокращенно -u , например так git push --set-upstream origin main, вы сделаете удаленную ветку main репозитория origin отслеживаемой. 
+
 ---
 [*мои конспекты*](./README.md)
