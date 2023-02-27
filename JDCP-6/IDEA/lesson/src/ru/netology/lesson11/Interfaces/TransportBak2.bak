@@ -1,0 +1,19 @@
+package ru.netology.lesson11.Interfaces;
+
+public abstract class TransportBak2 implements Transferer {
+    private int fuel;
+
+    public TransportBak2(int fuel) {// вернули public
+        this.fuel = fuel;
+    }
+
+    public void spendFuel(int fuel) {
+        this.fuel -= fuel;
+    }
+
+//    public abstract void transfer(String name, String from, String to);//теперь тут не нужен
+
+    public int getFuel() {
+        return fuel;
+    }
+}

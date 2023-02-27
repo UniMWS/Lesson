@@ -1,0 +1,14 @@
+package ru.netology.lesson9.Encapsulation;
+
+public class MainBak1 {
+    public static void main(String[] args) {
+        Person person = new Person();
+//        person.name = "Petya";
+//        person.age = 8;
+        person.setName("Petya");
+        person.setAge(40);
+        person.setAge(-8);
+        System.out.println(person.name + " " + person.age + " типа молод? " + person.isTooYoung());
+        System.out.println(person.getName() + " " + person.getAge() + " типа молод? " + person.isTooYoung());
+    }
+}

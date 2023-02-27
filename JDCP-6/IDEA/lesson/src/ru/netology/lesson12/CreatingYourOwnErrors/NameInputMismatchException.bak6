@@ -1,0 +1,7 @@
+package ru.netology.lesson12.CreatingYourOwnErrors;
+
+public class NameInputMismatchExceptionbak extends RuntimeException {
+    public NameInputMismatchExceptionbak(String message) {//создаем конструктор, который передаёт сообщение выше
+        super(message);
+    }
+}

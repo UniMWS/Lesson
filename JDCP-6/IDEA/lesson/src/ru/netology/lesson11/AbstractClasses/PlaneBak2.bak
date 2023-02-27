@@ -1,0 +1,8 @@
+package ru.netology.lesson11.AbstractClasses;
+
+public class PlaneBak2 extends Transport{
+    public PlaneBak2() {
+        super(10_000);
+    }
+    // в-третьих, мы тупо "не знали" про метод трансфер и не переопределили его здесь
+}

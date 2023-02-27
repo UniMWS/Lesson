@@ -1,0 +1,5 @@
+package ru.netology.lesson11.Interfaces;
+
+public abstract class TransfererBak {
+    public abstract void transfer(String name, String from, String to);//скопировали из Transport
+}
