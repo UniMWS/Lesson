@@ -33,7 +33,7 @@
 3. Общение с пользователем в цикле
 #
 #### Типы данных в Java: примитивы
-1. Инструкция по установке IntelliJ Idea
+1. [Инструкция по установке IntelliJ Idea](https://github.com/netology-code/javaqa-homeworks/blob/master/intro/idea.md)
 2. Знакомство с IntelliJ Idea
 3. Целочисленные типы данных
 4. Вещественные типы данных
