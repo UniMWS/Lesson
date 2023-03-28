@@ -93,6 +93,7 @@
 > 05.03.2023
 #### Внедрение системы контроля версий
 1. [Конспект урока №13](./lesson13.md)
++ [Что делает git branch -M main в Git?](https://ru.stackoverflow.com/questions/1401902/%D0%A7%D1%82%D0%BE-%D0%B4%D0%B5%D0%BB%D0%B0%D0%B5%D1%82-git-branch-m-main-%D0%B2-git)
 #
 > 06.02.2023
 #### [История работы и ветки](lesson14.md)
